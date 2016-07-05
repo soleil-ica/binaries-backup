@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib64
+includedir=/usr/include
+
+Name: omniCOSDynamic4
+Description: CORBA Object Request Broker - CORBA Services dynamic stubs
+Version: 4.1.7
+Requires: omniCOS4
+Libs: -L${libdir} -lCOSDynamic4
+Cflags:

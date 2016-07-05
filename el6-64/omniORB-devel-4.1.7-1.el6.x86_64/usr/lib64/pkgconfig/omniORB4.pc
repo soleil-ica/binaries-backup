@@ -1,0 +1,15 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib64
+includedir=/usr/include
+datadir=/usr/share
+idldir=${datadir}/idl/omniORB
+omniidl=/usr/bin/omniidl
+
+Name: omniORB4
+Description: CORBA Object Request Broker.
+Version: 4.1.7
+Requires: omnithread3
+Libs: -L${libdir} -lomniORB4
+Cflags: -I${includedir}
+unloadable_stubs=-DOMNI_UNLOADABLE_STUBS

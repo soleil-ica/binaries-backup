@@ -1,0 +1,10 @@
+prefix=/home/informatique/ica/langlois/compil_64/zeromq-3.2.5/install
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 3.2.5
+Libs: -L${libdir} -lzmq
+Cflags: -I${includedir}

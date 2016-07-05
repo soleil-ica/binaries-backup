@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib64
+includedir=/usr/include
+
+Name: omniDynamic4
+Description: CORBA Object Request Broker - Dynamic Library.
+Version: 4.1.7
+Requires: omniORB4
+Libs: -L${libdir} -lomniDynamic4
+Cflags:
